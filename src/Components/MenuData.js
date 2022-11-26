@@ -27,7 +27,7 @@ export const MenuData = [
     {
         title: "Get Started",
         url:"",
-        cName: "navLinks moblie",
+        cName: "getStarted",
     },
     
 ]

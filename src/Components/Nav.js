@@ -11,7 +11,7 @@ class Nav extends Component {
   render(){
     return (
       <nav className="NavItems">
-        <h1 className="logo">Tech Land<i class="fa-solid fa-computer"></i></h1>
+        <h1 className="logo">Tech Land<i className="fa-solid fa-computer"></i></h1>
         <div className="MenuIcons"
         onClick={this.handleClick}>
           <i className=
