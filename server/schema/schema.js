@@ -1,6 +1,6 @@
 const { freelancer, clients } = require('../sampleData.js')
 
-const { GraphQLObjectType, GraphQLID, GraphQLString, GraphQLScalarType, graphql } = require('graphql');
+const { GraphQLObjectType, GraphQLID, GraphQLString, GraphQLSchema } = require('graphql');
 
 // Client Type
 const ClientType = new GraphQLObjectType({
@@ -20,8 +20,12 @@ const RootQuery = new GraphQLObjectType({
             type: ClientType,
             args: { id: { type: GraphQLID } },
             resolve(parent, args) {
-                
+                return clients.find(client => client.id === args.id);
             }
         }
     }
+});
+
+module.exports = new GraphQLSchema({
+    query: RootQuery,
 });
