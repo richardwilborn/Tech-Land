@@ -1,12 +1,13 @@
-// Projects
-const freelancer = [
+// Freelancers
+const freelancers = [
     {
       id: '1',
       clientId: '1',
       name: 'eCommerce Website',
       description:
         'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.',
-      status: 'In Progress',
+      portfolio: 'https://github.com/',
+      developer: 'Front-End',
     },
     {
       id: '2',
@@ -14,7 +15,8 @@ const freelancer = [
       name: 'Dating App',
       description:
         'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.',
-      status: 'In Progress',
+      portfolio: 'https://github.com/',
+      developer: 'Front-End',
     },
     {
       id: '3',
@@ -22,7 +24,8 @@ const freelancer = [
       name: 'SEO Project',
       description:
         'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.',
-      status: 'In Progress',
+      portfolio: 'https://github.com/',
+      developer: 'Back-End',
     },
     {
       id: '4',
@@ -30,7 +33,8 @@ const freelancer = [
       name: 'Design Prototype',
       description:
         'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.',
-      status: 'Done',
+      portfolio: 'https://github.com/',
+      developer: 'Full-Stack',
     },
     {
       id: '5',
@@ -38,7 +42,8 @@ const freelancer = [
       name: 'Auction Website',
       description:
         'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.',
-      status: 'In Progress',
+      portfolio: 'https://github.com/',
+      developer: 'Back-End',
     },
   ];
   
@@ -76,4 +81,4 @@ const freelancer = [
     },
   ];
   
-  module.exports = { freelancer, clients };
+  module.exports = { freelancers, clients };
