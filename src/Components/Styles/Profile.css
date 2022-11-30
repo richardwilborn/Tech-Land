@@ -1,0 +1,42 @@
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.contactInfo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    width: 30%;
+    height: 50%;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+    background-color: green;
+    border-radius:13px;
+}
+
+.sampleBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    bottom: 70%;
+    left: 70%; 
+    width: 300px;
+    height: 40%;
+    border: 5px solid black;
+    border-radius: 13px;
+}
+
+.skillList {
+    position: absolute;
+    left: 70%;
+    bottom: 30%;
+    width: 300px;
+    height: 40%;
+    border: 5px solid black;
+    border-radius: 13px;
+}
