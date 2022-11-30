@@ -1,19 +1,19 @@
 export const MenuData = [
     {
         title: "Home",
-        url:"",
+        url:"/",
         cName: "navLinks",
         icon: "fa-solid fa-house"
     },
     {
         title: "Profile",
-        url:"",
+        url:"Profile",
         cName: "navLinks",
         icon: "fa-solid fa-user"
     },
     {
         title: "Support",
-        url:"",
+        url:"Support",
         cName: "navLinks",
         icon: "fa-solid fa-circle-info"
     },
@@ -26,7 +26,7 @@ export const MenuData = [
     // },
     {
         title: "Get Started",
-        url:"",
+        url:"Login",
         cName: "getStarted",
     },
     
