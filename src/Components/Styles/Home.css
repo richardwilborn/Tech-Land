@@ -4,6 +4,17 @@
     box-sizing: border-box;
   }
   
+  .home-container {
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./Img/homepage.JPG);
+    background-size: cover;
+  }
+
   .container {
     width: 90%;
     margin: 7rem auto;
@@ -23,33 +34,39 @@
   
   .card {
     width: 20%;
-    background: #fff;
-    border: 1px solid #ccc;
+    background-color: #eee6ff;
+    border: 1px solid #fff;
+    padding: 0.8%;
     margin-bottom: 50px;
     transition: 0.3s;
+    border-radius: 13px;
+    margin: 10px;
   }
   
   .card-header {
     text-align: center;
     padding: 50px 10px;
-    background: linear-gradient(to right, #0073e6, #3e9efe);
+    background: linear-gradient(to right, #0d3cd5eb, #fe3e3eb7);
     color: #fff;
+    border-radius: 13px;
   }
   
   .card-body {
     padding: 30px 20px;
     text-align: center;
     font-size: 18px;
+
   }
   
   .card-body .btn {
     display: block;
     color: #fff;
     text-align: center;
-    background: linear-gradient(to right, #0073e6, #3e9efe);
+    background: linear-gradient(to right, #4a71efeb, #fe3e3eb7);
     margin-top: 30px;
     text-decoration: none;
     padding: 10px 5px;
+    border-radius: 13px;
   }
   
   .btn:hover {

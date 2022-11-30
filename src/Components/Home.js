@@ -5,6 +5,7 @@ import React from 'react'
 function Home(){
 
     return (<>
+    <div className="home-container">
     <div class="container">
     <div class="heading">
       <h1>Welcome to Tech Land where you can be a freelance web-developer. Earn top dollar for your
@@ -85,6 +86,7 @@ function Home(){
         </div>
       </div>
     </div>
+  </div>
   </div>
     </>
     );

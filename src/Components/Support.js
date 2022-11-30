@@ -2,7 +2,6 @@ import "./Styles/Support.css"
 import React from "react";
 
 
-
 function Support(){
 
     return (<>
