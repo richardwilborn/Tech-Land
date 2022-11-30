@@ -1,0 +1,150 @@
+*,
+:after,
+:before {
+   box-sizing: border-box
+}
+
+.loginBody {
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./Img/Screen\ Shot\ 2022-11-29\ at\ 8.16.36\ PM.png);
+    background-size: cover;
+}
+
+
+a {
+   color: inherit;
+   text-decoration: none
+}
+
+.gsContainer {
+   width: 100%;
+   margin: auto;
+   margin-top: 0.7rem;
+   max-width: 25rem;
+   min-height: 35rem;
+   position: relative;
+   
+}
+
+.loginContainer {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   padding: 90px 70px 50px 70px;
+
+}
+
+.loginContainer .signInHtm,
+.loginContainer .signUpHtm {
+   top: 30%;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   position: absolute;
+   transform: rotateY(180deg);
+   backface-visibility: hidden;
+   transition: all .4s linear;
+}
+
+.loginContainer .signUpHtm {
+   top: 20%;
+}
+
+.loginContainer .signIn,
+.loginContainer .signUp,
+.loginForm .group .check {
+   display: none;
+}
+
+.loginContainer .item,
+.loginForm .group .label,
+.loginForm .group .button {
+   text-transform: uppercase;
+}
+
+.loginContainer .item {
+   font-size: 22px;
+   margin-right: 15px;
+   padding-bottom: 5px;
+   margin: 0 15px 10px 0;
+   display: inline-block;
+   border-bottom: 2px solid transparent;
+   cursor: pointer;
+}
+
+.loginContainer .signIn:checked+.item,
+.loginContainer .signUp:checked+.item {
+   color: #fff;
+   border-color: #222;
+}
+
+.loginForm {
+   min-height: 175px;
+   position: relative;
+   transform-style: preserve-3d;
+}
+
+.loginForm .group {
+   margin-bottom: 15px;
+}
+
+.loginForm .group .label,
+.loginForm .group .input,
+.loginForm .group .button {
+   width: 100%;
+   color: #fff;
+   display: block;
+}
+
+.button {
+   cursor: pointer;
+}
+
+.loginForm .group .input,
+.loginForm .group .button {
+   border: none;
+   padding: 15px 20px;
+   border-radius: 25px;
+
+}
+
+.loginForm .group input[data-type="password"] {
+   
+   -webkit-text-security: circle;
+}
+
+.loginForm .group .label {
+   color: #aaa;
+   font-size: 12px;
+}
+
+.loginForm .group .button {
+   background: #222;
+}
+
+.loginForm .group .check:checked+label {
+   color: #fff;
+}
+
+.loginContainer .signIn:checked+.item+.signUp+.item+.loginForm .signInHtm {
+   transform: rotate(0);
+}
+
+.loginContainer .signUp:checked+.item+.loginForm .signUpHtm {
+   transform: rotate(0);
+}
+
+.hr {
+   height: 2px;
+   margin: 30px 0 30px 0;
+   background: rgba(255, 255, 255, .2);
+}
+
+.footer {
+   text-align: center;
+}
