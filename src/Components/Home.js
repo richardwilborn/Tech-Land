@@ -6,83 +6,83 @@ function Home(){
 
     return (<>
     <div className="home-container">
-    <div class="container">
-    <div class="heading">
+    <div className="container">
+    <div className="heading">
       <h1>Welcome to Tech Land where you can be a freelance web-developer. Earn top dollar for your
         work. Create an account and get started today!!!
       </h1>
     </div>
-    <div class="row">
-      <div class="card">
-        <div class="card-header">
+    <div className="row">
+      <div className="card">
+        <div className="card-header">
           <h1>Front-end</h1>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <ul>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" class="btn">Accept</a>
+          <a href="#" className="btn">Accept</a>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header">
+      <div className="card">
+        <div className="card-header">
           <h1>Front-end</h1>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <ul>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" class="btn">Accept</a>
+          <a href="#" className="btn">Accept</a>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header">
+      <div className="card">
+        <div className="card-header">
           <h1>Full-stack</h1>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <ul>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" class="btn">Accept</a>
+          <a href="#" className="btn">Accept</a>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header">
+      <div className="card">
+        <div className="card-header">
           <h1>Back-end</h1>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <ul>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" class="btn">Accept</a>
+          <a href="#" className="btn">Accept</a>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header">
+      <div className="card">
+        <div className="card-header">
           <h1>Full-stack</h1>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <ul>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" class="btn">Accept</a>
+          <a href="#" className="btn">Accept</a>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header">
+      <div className="card">
+        <div className="card-header">
           <h1>Front-end</h1>
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <ul>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" class="btn">Accept</a>
+          <a href="#" className="btn">Accept</a>
         </div>
       </div>
     </div>
