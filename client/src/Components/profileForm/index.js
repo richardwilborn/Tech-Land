@@ -7,19 +7,19 @@ import { QUERY_THOUGHTS } from '../../utils/queries';
 
 import Auth from '../../utils/auth';
 
-const ThoughtForm = () => {
-  const [thoughtText, setThoughtText] = useState('');
+const ProfileForm = () => {
+  const [profileText, setProfileText] = useState('');
 
   const [characterCount, setCharacterCount] = useState(0);
 
-  const [addThought, { error }] = useMutation(ADD_THOUGHT, {
-    update(cache, { data: { addThought } }) {
+  const [addProfile, { error }] = useMutation(ADD_THOUGHT, {
+    update(cache, { data: { addProfile } }) {
       try {
-        const { thoughts } = cache.readQuery({ query: QUERY_THOUGHTS });
+        const { profiles } = cache.readQuery({ query: QUERY_THOUGHTS });
 
         cache.writeQuery({
           query: QUERY_THOUGHTS,
-          data: { thoughts: [addThought, ...thoughts] },
+          data: { profiles: [addProfile, ...profiles] },
         });
       } catch (e) {
         console.error(e);
