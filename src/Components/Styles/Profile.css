@@ -1,55 +1,71 @@
 
-img {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
 }
 
 .profileContainer {
-    position:absolute;
-    right: 50%;
-    min-height: 100vh;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url(./Img/stock_fall_landscape.jpg);
-    background-size: cover;
-  }
+    background-image: url("./Img/stock_fall_landscape.jpg");
+    background-size:cover;
+}
 
 .contactInfo {
     display: flex;
     flex-wrap: wrap;
     flex-direction:column;
+    font-size: 15px;
     width: 30%;
     height: 50%;
-    border: 5px solid black;
     padding: 5px;
     margin: 5px;
-    background-color: green;
+    background-color: rgb(106, 166, 210);
     border-radius:13px;
+    color: #fff;
+    border-color:#fff;
 }
+
+
 
 .sampleBox {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     position: absolute;
-    bottom: 70%;
+    font-size:15px;
+    bottom: 50%;
     left: 70%; 
     width: 300px;
     height: 40%;
-    border: 5px solid black;
+    border-radius: 13px;
+    background-color:  rgb(106, 166, 210);
+    color: #fff;
+    border-color: #fff;
+}
+
+.cardHeader {
+    font-size: 20px;
+    text-align:center;
+    background-color: violet;
+    margin: 3px;
     border-radius: 13px;
 }
 
 .skillList {
     position: absolute;
     left: 70%;
-    top: 10%;
+    bottom: 5%;
+    font-size: 15px;
     width: 300px;
     height: 40%;
-    border: 5px solid black;
     border-radius: 13px;
+    background-color: rgb(106, 166, 210);
+    color: #fff;
+    border-color: #fff;
 }
