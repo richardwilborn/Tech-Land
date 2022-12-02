@@ -1,23 +1,26 @@
 # **Tech-Land**
 
-## *Deployed Application:*
+## *Deployement:*
 
 - [Tech-Land](https://safe-earth-46803.herokuapp.com/)
 #
+
+### *Description:*
+
+- Tech-Land is an online marketplace for freelance web developer services. Our platform connects freelances to users or businesses looking to hire.
+#
+
 ### *Project Deck*
 
-- [Tech-Land Pitch](WILL UPDATE WITH LINK)
+- [Project Desk](https://linktoprojectdesk)
 #
-### *User Story:*
-- 
-#
-### *Application Example:*
-#
-### *Project Requirements*
+
+### *Screenshot of Application:*
 
 
-**Your project MUST fulfil the following requirements:**
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 #
+
 ### *Technologies Used*
 
 - [HTML](https://www.w3schools.com/html/)
@@ -28,10 +31,19 @@
 
 - [Node.js](https://nodejs.org/en/)
 
--
+- [Express.js](https://expressjs.com/)
 
--
-#
+- [React](https://reactjs.org/)
+
+- [GraphQL](https://graphql.org/)
+
+- [MongoDB](https://www.mongodb.com/home/)
+
+- [Mongoose ODM](https://mongoosejs.com/)
+
+- [Heroku](https://www.heroku.com/)
+# 
+
 ### *Authors*
 
 - [Patrick Tan](https://github.com/patctan)
@@ -46,6 +58,7 @@
 
 - [Valeria Lopez](https://github.com/valopezs)
 #
+
 ### *License*
 
 - [UT Coding Boot Camp of Austin](https://techbootcamps.utexas.edu/coding/)
