@@ -5,8 +5,8 @@
 }
 
 .loginBody {
-    min-height: 100vh;
-    padding: 50px 100px;
+    min-height: 90vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ a {
 .gsContainer {
    width: 100%;
    margin: auto;
-   margin-top: 0.7rem;
+   margin-top: 4rem;
    max-width: 25rem;
    min-height: 35rem;
    position: relative;

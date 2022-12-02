@@ -16,6 +16,10 @@
     background-size: cover;
 }
 
+.supportContent{
+    margin-top: 4rem;
+}
+
 .supportContact .supportContent {
     max-width: 800px;
     text-align: center;
