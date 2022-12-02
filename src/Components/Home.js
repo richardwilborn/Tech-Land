@@ -16,7 +16,6 @@ function Home(){
             <div className="resource">
               <h2>Resources</h2>
               <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer">W3schools</a> 
-
               <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noreferrer">Developer Mozilla</a>    
               <a href="https://developer.chrome.com/docs/devtools/" target="_blank" rel="noreferrer">Chrome DevTools</a>
               <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwind</a>     
@@ -43,6 +42,8 @@ function Home(){
         </div>
         <div className="card-body">
           <ul>
+            <li>Date added:</li>
+            <li>Deadline:</li>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
@@ -55,6 +56,8 @@ function Home(){
         </div>
         <div className="card-body">
           <ul>
+            <li>Date added:</li>
+            <li>Deadline:</li>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
@@ -67,6 +70,8 @@ function Home(){
         </div>
         <div className="card-body">
           <ul>
+            <li>Date added:</li>
+            <li>Deadline:</li>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
@@ -79,6 +84,8 @@ function Home(){
         </div>
         <div className="card-body">
           <ul>
+            <li>Date added:</li>
+            <li>Deadline:</li>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
@@ -91,6 +98,8 @@ function Home(){
         </div>
         <div className="card-body">
           <ul>
+            <li>Date added:</li>
+            <li>Deadline:</li>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
@@ -103,6 +112,8 @@ function Home(){
         </div>
         <div className="card-body">
           <ul>
+            <li>Date added:</li>
+            <li>Deadline:</li>
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
