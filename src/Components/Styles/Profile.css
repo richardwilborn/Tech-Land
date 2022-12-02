@@ -5,6 +5,19 @@ img {
     height: 150px;
 }
 
+.profileContainer {
+    position:absolute;
+    right: 50%;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./Img/stock_fall_landscape.jpg);
+    background-size: cover;
+  }
+
 .contactInfo {
     display: flex;
     flex-wrap: wrap;
@@ -34,7 +47,7 @@ img {
 .skillList {
     position: absolute;
     left: 70%;
-    bottom: 30%;
+    top: 10%;
     width: 300px;
     height: 40%;
     border: 5px solid black;

@@ -1,8 +1,9 @@
 import "./Styles/Profile.css"
+import React from 'react'
 
 
 function Home(){
-    return (<>    <div>
+    return (<>    <div classname="profileContainer">
         <img class="profilePic" src="./public/michelleyeoh.jpg" alt= "profile Pic"></img>
         <div className="Home">
             <section> <h1>Name</h1>
