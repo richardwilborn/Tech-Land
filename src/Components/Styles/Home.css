@@ -3,6 +3,23 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+  .resource {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    float: left;
+    background-color: #fff;
+    border-radius: 13px;
+    height: screen;
+    font-size: larger;
+    background-color: #eee6ff;
+
+  }
+
+  a {
+    padding:0.5rem
+  }
   
   .home-container {
     min-height: 100vh;
@@ -23,6 +40,11 @@
     text-align: center;
     font-size: 1rem;
     margin-bottom: 50px;
+    background-color: #fff;
+    border-radius: 13px;
+    background-color: #eee6ff;
+
+
   }
   
   .row {
