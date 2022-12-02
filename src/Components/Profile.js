@@ -4,23 +4,23 @@ import React from 'react'
 
 function Home(){
     return (<>    <div className="profileContainer">
-        <img className="profilePic" src="./img/michelleyeoh.jpg" alt= "profile Pic"></img>
+        <img className="profilePic" src="src\Components\Styles\Img\michelleyeoh.jpg"alt= "profile Pic"></img>
         <div className="Home">
             <section className="contactInfo"> 
-            <h1>Name</h1>
+            <h1 className="cardHeader">Name</h1>
             <p>fillertext</p>
-            <h1>Github:</h1>
+            <h1 className="cardHeader">Github:</h1>
             <p>fillertext</p>
-            <h1>LinkedIn</h1>
+            <h1 className="cardHeader">LinkedIn</h1>
             <p>fillerText</p>
-            <h1>Specialties:</h1>
+            <h1 className="cardHeader">Specialties:</h1>
             <p>fillertext</p>
             </section>
         </div>
     
         <section>
             <div className="sampleBox">
-                <div class="cardHeader">
+                <div className="cardHeader">
                 <h3>Sample Work: </h3>
                 </div>
                 <p>Filler text here</p>
