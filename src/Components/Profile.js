@@ -6,6 +6,10 @@ function Home(){
     return (<>    <div className="profileContainer">
         <img className="profilePic" src="src\Components\Styles\Img\michelleyeoh.jpg"alt= "profile Pic"></img>
         <div className="Home">
+
+        <div className="pictureSpace">
+            <p>Your profile picture goes here!</p>
+        </div>
             <section className="contactInfo"> 
             <h1 className="cardHeader">Name</h1>
             <p>fillertext</p>

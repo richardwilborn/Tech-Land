@@ -22,6 +22,10 @@
     background-size: cover;
 }
 
+
+.pictureSpace {
+    
+}
 .contactInfo {
     /* display: flex;
     flex-wrap: wrap;
@@ -34,7 +38,7 @@
     bottom: 20%;
     padding: 5px;
     margin: 5px;
-    background-color: rgb(106, 166, 210);
+    background-color: rgb(73, 172, 129);
     border-radius:13px;
     color: #fff;
     border-color:#fff;
@@ -53,7 +57,7 @@
     width: 300px;
     height: 40%;
     border-radius: 13px;
-    background-color:  rgb(106, 166, 210);
+    background-color:  rgb(73, 172, 129);
     color: #fff;
     border-color: #fff;
 }
@@ -61,7 +65,7 @@
 .cardHeader {
     font-size: 20px;
     text-align:center;
-    background-color: violet;
+    background:linear-gradient(to right, rgb(204, 150, 50), rgb(207, 207, 101));
     margin: 3px;
     border-radius: 13px;
 }
@@ -74,7 +78,7 @@
     width: 300px;
     height: 40%;
     border-radius: 13px;
-    background-color: rgb(106, 166, 210);
+    background-color: rgb(73, 172, 129);
     color: #fff;
     border-color: #fff;
 }
