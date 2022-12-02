@@ -14,7 +14,8 @@ function Home(){
             <h1>LinkedIn</h1>
             <p>fillerText</p>
             <h1>Specialties:</h1>
-            <p>fillertext</p></section>
+            <p>fillertext</p>
+            </section>
         </div>
     
         <section>

@@ -12,8 +12,14 @@
 }
 
 .profileContainer {
-    background-image: url("./Img/stock_fall_landscape.jpg");
-    background-size:cover;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(./Img/stock_fall_landscape.jpg);
+    background-size: cover;
 }
 
 .contactInfo {
@@ -39,7 +45,7 @@
     flex-direction: column;
     position: absolute;
     font-size:15px;
-    bottom: 50%;
+    bottom: 45%;
     left: 70%; 
     width: 300px;
     height: 40%;
@@ -60,7 +66,7 @@
 .skillList {
     position: absolute;
     left: 70%;
-    bottom: 5%;
+    bottom: 2%;
     font-size: 15px;
     width: 300px;
     height: 40%;
