@@ -38,6 +38,7 @@
     align-items: center;
     text-align: center;
     justify-content: end;
+    /* position:absolute; */
 }
 
 .navLinks {
@@ -58,6 +59,7 @@
     0 0 30px #0073e6, 0 0 30px #0073e6;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
+    animation: fill 1s
 }
 
 .fa-bars,
