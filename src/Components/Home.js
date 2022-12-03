@@ -14,7 +14,7 @@ function Home(){
       </h1>
     </div>
             <div className="resource">
-              <h2>Resources</h2>
+              <div className="Resources"><h2>Resources</h2></div>
               <a href="https://www.w3schools.com/" target="_blank" rel="noreferrer">W3schools</a> 
               <a href="https://developer.mozilla.org/en-US/" target="_blank" rel="noreferrer">Developer Mozilla</a>    
               <a href="https://developer.chrome.com/docs/devtools/" target="_blank" rel="noreferrer">Chrome DevTools</a>

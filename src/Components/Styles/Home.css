@@ -4,17 +4,22 @@
     box-sizing: border-box;
   }
 
+  .Resources {
+    color: #fff;
+  }
+
   .resource {
     display: flex;
     flex-direction: column;
     column-gap: 2rem;
     float: left;
-    background-color: #fff;
     border-radius: 13px;
     height: screen;
     font-size: larger;
     background-color: #eee6ff;
-
+    padding: 3.0%;
+    color: #fff;
+    background: linear-gradient(to right, #0d3cd5eb, #fe3e3eb7);
   }
 
   ul {
@@ -52,11 +57,9 @@
     text-align: center;
     font-size: 1rem;
     margin-bottom: 50px;
-    background-color: #fff;
     border-radius: 13px;
-    background-color: #eee6ff;
-
-
+    background: linear-gradient(to right, #0d3cd5eb, #fe3e3eb7);
+    color: #fff;
   }
   
   .row {
