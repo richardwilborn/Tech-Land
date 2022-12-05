@@ -83,7 +83,7 @@
 .contactForm{
     width: 40%;
     padding: 40px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0.519);
     border-radius: 30px;
 }
 

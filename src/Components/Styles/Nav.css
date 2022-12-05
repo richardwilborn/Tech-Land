@@ -18,9 +18,9 @@
 .logo {
     color:#fff;
     text-shadow: 0 0 5px #fff,
-    0 0 10px #fff, 0 0 15px #0073e6,
-    0 0 20px #0073e6, 0 0 25px #0073e6,
-    0 0 30px #0073e6, 0 0 30px #0073e6;
+    0 0 10px #fff, 0 0 15px #ad33fd,
+    0 0 20px #ad33fd, 0 0 25px #ad33fd,
+    0 0 30px #ad33fd, 0 0 30px #ad33fd;
     justify-self: start;
     cursor: pointer;
 }
@@ -54,12 +54,12 @@
 
 .navLinks:hover{
     text-shadow: 0 0 5px #fff,
-    0 0 10px #fff, 0 0 15px #0073e6,
-    0 0 20px #0073e6, 0 0 25px #0073e6,
-    0 0 30px #0073e6, 0 0 30px #0073e6;
+    0 0 10px #fff, 0 0 15px #ad33fd,
+    0 0 20px #ad33fd, 0 0 25px #ad33fd,
+    0 0 30px #ad33fd, 0 0 30px #ad33fd;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
-    animation: fill 1s
+    
 }
 
 .fa-bars,
@@ -85,7 +85,7 @@
 }
 
 .getStarted:hover{
-    background-color: #0073e6;
+    background-color: #ad33fd;
     transition: 0.5s;
     color:#fff
 
