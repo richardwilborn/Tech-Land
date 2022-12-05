@@ -10,7 +10,10 @@ class Nav extends Component {
   }
   render(){
     return (
-      <nav className="NavItems">
+      
+      <nav >
+        <div className="NavItems">
+          
         <h1 className="logo">Tech Land<i className="fa-solid fa-computer"></i></h1>
         <div className="MenuIcons"
         onClick={this.handleClick}>
@@ -31,6 +34,7 @@ class Nav extends Component {
                  );
             })}
           </ul>
+          </div>
       </nav>
    )
  };

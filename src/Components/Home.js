@@ -1,6 +1,6 @@
 import "./Styles/Home.css";
 import React from 'react';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 
 function Home(){
@@ -12,6 +12,8 @@ function Home(){
       <h1>Welcome to Tech Land where you can be a freelance web-developer. Earn top dollar for your
         work. Create an account and get started today!!!
       </h1>
+      <img alt="person on laptop" src="person.png" width={500} height={400}></img>
+
     </div>
             <div className="resource">
               <h2>Resources</h2>
@@ -47,7 +49,7 @@ function Home(){
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" className="btn">Accept</a>
+          <a href="*" className="btn">Accept</a>
         </div>
       </div>
       <div className="card">
@@ -61,7 +63,7 @@ function Home(){
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" className="btn">Accept</a>
+          <a href="*" className="btn">Accept</a>
         </div>
       </div>
       <div className="card">
@@ -75,7 +77,7 @@ function Home(){
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" className="btn">Accept</a>
+          <a href="*" className="btn">Accept</a>
         </div>
       </div>
       <div className="card">
@@ -89,7 +91,7 @@ function Home(){
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" className="btn">Accept</a>
+          <a href="*" className="btn">Accept</a>
         </div>
       </div>
       <div className="card">
@@ -103,7 +105,7 @@ function Home(){
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" className="btn">Accept</a>
+          <a href="*" className="btn">Accept</a>
         </div>
       </div>
       <div className="card">
@@ -117,7 +119,7 @@ function Home(){
             <li>Readme.md:</li>
             <li>Pay:</li>
           </ul>
-          <a href="#" className="btn">Accept</a>
+          <a href="*" className="btn">Accept</a>
         </div>
       </div>
     </div>
