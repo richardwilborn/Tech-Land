@@ -11,12 +11,16 @@
     border-radius:13px ;
     position: fixed;
     top:20px;
-    left:50%;
+    left: 50%;
     transform: translate(-50%);
 }
 
 .logo {
-    color:white;
+    color:#fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 30px #0073e6;
     justify-self: start;
     cursor: pointer;
 }
@@ -34,6 +38,7 @@
     align-items: center;
     text-align: center;
     justify-content: end;
+    /* position:absolute; */
 }
 
 .navLinks {
@@ -48,14 +53,18 @@
 }
 
 .navLinks:hover{
-    background: rgb(80,80,238);
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #0073e6,
+    0 0 20px #0073e6, 0 0 25px #0073e6,
+    0 0 30px #0073e6, 0 0 30px #0073e6;
     border-radius: 4px;
     transition: all 0.2s ease-in-out;
+    animation: fill 1s
 }
 
 .fa-bars,
 .fa-times {
-    color: white
+    color: #fff
     ;
 }
 
@@ -73,6 +82,13 @@
     font-size: 1rem;
     font-weight: 500;
     color:#222;
+}
+
+.getStarted:hover{
+    background-color: #0073e6;
+    transition: 0.5s;
+    color:#fff
+
 }
 
 @media screen and (max-width: 850px){
@@ -108,7 +124,7 @@
         display: block;
         widows: 100%;
         padding: 2rem 0;
-        color: #222;
+        color: black;
     }
 
     .navLinks:hover {
