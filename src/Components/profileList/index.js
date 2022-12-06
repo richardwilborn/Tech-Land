@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 
 const ProfileList = ({ profiles, title }) => {
   if (!profiles.length) {
-    return <h3>Input your contact info here!</h3>;
+    return <h3>No Profiles Yet</h3>;
   }
 
   return (
     <div>
       <h3>{title}</h3>
       {profiles &&
-        profiles.map((contact) => (
-          <div key={contact._id} className="card mb-3">
+        profiles.map((profile) => (
+          <div key={profile._id} className="card mb-3">
             <h4 className="card-header bg-primary text-light p-2 m-0">
 
               {profiles.profileAuthor} <br />
