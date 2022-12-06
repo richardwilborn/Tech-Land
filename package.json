@@ -21,11 +21,12 @@
   },
   "scripts": {
     "start": "node server/server.js",
+    "seed": "cd server && npm run seed",
     "startheroku": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "nodemon server/index.js"
+    "dev": "nodemon server/server.js"
   },
   "eslintConfig": {
     "extends": [
