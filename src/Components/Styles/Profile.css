@@ -36,6 +36,7 @@
     padding: 5px;
     margin: 5px;
     background-color: rgb(73, 172, 129);
+    opacity: 80%;
     border-radius:13px;
     color: #fff;
     border-color:#fff;
@@ -54,6 +55,7 @@
     height: 40%;
     border-radius: 13px;
     background-color:  rgb(73, 172, 129);
+    opacity: 80%;
     color: #fff;
     border-color: #fff;
 }
@@ -75,6 +77,7 @@
     height: 40%;
     border-radius: 13px;
     background-color: rgb(73, 172, 129);
+    opacity: 80%;
     color: #fff;
     border-color: #fff;
 }
