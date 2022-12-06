@@ -5,9 +5,8 @@ import React from "react";
 
 
 
-function TurnBack(){
-
-   
+function TurnBack(props){
+    props.funcNav(false);
 
     return (<>
   <div className="errContainer container-star">
@@ -153,6 +152,8 @@ function TurnBack(){
 </div>
     </>
     );
+    
 }
+
 
 export default TurnBack;
