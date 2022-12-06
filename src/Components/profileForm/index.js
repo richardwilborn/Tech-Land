@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMutation } from '@apollo/client';
 
-import { ADD_THOUGHT } from '../../utils/mutations';
-import { QUERY_THOUGHTS } from '../../utils/queries';
+import { ADD_PROFILE } from '../../utils/mutations';
 
 import Auth from '../../utils/auth';
 
@@ -12,7 +11,7 @@ const ProfileForm = () => {
 
   const [characterCount, setCharacterCount] = useState(0);
 
-  const [addProfile, { error }] = useMutation(ADD_THOUGHT, {
+  const [addProfile, { error }] = useMutation(ADD_PROFILE, {
     update(cache, { data: { addProfile } }) {
       try {
         const { profiles } = cache.readQuery({ query: QUERY_THOUGHTS });
