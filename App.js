@@ -1,16 +1,10 @@
 import React from 'react';
 import "./App.css";
-import Home from './Components/Home';
-import Nav from "./Components/Nav";
-import Login from './Components/Login';
-import Support from './Components/Support';
-import Profile from './Components/Profile';
-import Footer from './Components/Footer';
-
-import TurnBack from './Components/TurnBack';
-
-
-
+import Home from './client/src/Components/Home';
+import Nav from "./client/src/Components/Nav";
+import Login from './client/src/Components/Login';
+import Support from './client/src/Components/Support';
+import Profile from './client/src/Components/Profile';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -25,10 +19,7 @@ function App() {
         <Route path="/login" element={<Login />}/>
         <Route path="/support" element={<Support />}/>
         <Route path="/profile" element={<Profile />}/>
-        <Route path='*' element={<TurnBack />} />
-
       </Routes>
-      <Footer/>
     </div>
     </Router>
   );
