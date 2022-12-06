@@ -43,5 +43,7 @@ const resolvers = {
             const token = signToken(profile);
             return { token, profile };
         },
-    }
-}
+    },
+};
+
+module.exports = resolvers;
