@@ -22,11 +22,7 @@
     background-size: cover;
 }
 
-
-.pictureSpace {
-    
-}
-.contactInfo {
+.contactInformation {
     /* display: flex;
     flex-wrap: wrap;
     flex-direction:column; */
@@ -43,8 +39,6 @@
     color: #fff;
     border-color:#fff;
 }
-
-
 
 .sampleBox {
     display: flex;

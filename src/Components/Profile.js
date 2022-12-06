@@ -10,7 +10,7 @@ function Home(){
         <div className="pictureSpace">
             <p>Your profile picture goes here!</p>
         </div>
-            <section className="contactInfo"> 
+            <section className="contactInformation"> 
             <h1 className="cardHeader">Name</h1>
             <p>fillertext</p>
             <h1 className="cardHeader">Github:</h1>
