@@ -25,7 +25,9 @@ function GetStarted(){
                     </div>
                         <div className="hr"></div>
                         <div className="footer">
+
                             <a href="*" >Forgot Password?</a>
+
                         </div>
                 </div>
                 <div className="signUpHtm">

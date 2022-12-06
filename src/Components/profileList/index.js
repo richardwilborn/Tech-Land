@@ -13,10 +13,12 @@ const ProfileList = ({ profiles, title }) => {
         profiles.map((contact) => (
           <div key={contact._id} className="card mb-3">
             <h4 className="card-header bg-primary text-light p-2 m-0">
+
               {profiles.profileAuthor} <br />
             </h4>
             <div className="card-body bg-light p-2">
               <p>{profiles.profileText}</p>
+
             </div>
           </div>
         ))}

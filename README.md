@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# **Tech-Land**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## *Deployement:*
 
-## Available Scripts
+- [Tech-Land](https://safe-earth-46803.herokuapp.com/)
+#
 
-In the project directory, you can run:
+### *Description:*
 
-### `npm start`
+- Tech-Land is an online marketplace for freelance web developer services. Our platform connects freelances to users or businesses looking to hire.
+#
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### *Project Deck*
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Project Desk](https://linktoprojectdesk)
+#
 
-### `npm test`
+### *Screenshot of Application:*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+#
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### *Technologies Used*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [HTML](https://www.w3schools.com/html/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [CSS](https://www.w3schools.com/css/default.asp)
 
-### `npm run eject`
+- [JavaScript](https://www.javascript.com/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [Node.js](https://nodejs.org/en/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Express.js](https://expressjs.com/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [React](https://reactjs.org/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [GraphQL](https://graphql.org/)
 
-## Learn More
+- [MongoDB](https://www.mongodb.com/home/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Mongoose ODM](https://mongoosejs.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Heroku](https://www.heroku.com/)
+# 
 
-### Code Splitting
+### *Authors*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Patrick Tan](https://github.com/patctan)
 
-### Analyzing the Bundle Size
+- [Angel Gutierrez ](https://github.com/angeltried)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Mariana Hernandez-Chavez](https://github.com/Mariana21hch)
 
-### Making a Progressive Web App
+- [Alaya Guajardo](https://github.com/alayaa10)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Richard Wilborn](https://github.com/richardwilborn)
 
-### Advanced Configuration
+- [Valeria Lopez](https://github.com/valopezs)
+#
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### *License*
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [UT Coding Boot Camp of Austin](https://techbootcamps.utexas.edu/coding/)
