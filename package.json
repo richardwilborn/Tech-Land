@@ -6,16 +6,28 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "apolloclient": "^0.0.2",
+    "create-react-app": "^5.0.1",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongodb": "^4.12.0",
+    "mongoose": "^6.7.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-icon": "^1.0.0",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/server.js",
+    "seed": "cd server && npm run seed",
+    "startheroku": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "nodemon server/server.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +46,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
   }
 }
