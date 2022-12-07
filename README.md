@@ -12,13 +12,14 @@
 
 ### *Project Deck*
 
-- [Project Desk](https://linktoprojectdesk)
+- [Project Deck](https://docs.google.com/presentation/d/1h3AqypPdZFZuq1nt0O_SiNQjAK3AeoAZdo7UKXd2-Qw/edit?usp=sharing)
 #
 
 ### *Screenshot of Application:*
 
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2022-12-06 at 6 54 50 PM](https://user-images.githubusercontent.com/45742979/206065560-977a474f-471b-40d8-9fcc-f04f2764c516.png)
+
 #
 
 ### *Technologies Used*
