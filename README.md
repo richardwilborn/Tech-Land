@@ -12,7 +12,7 @@
 
 ### *Project Deck*
 
-- [Project Desk](https://linktoprojectdesk)
+- [Project Deck](https://docs.google.com/presentation/d/1h3AqypPdZFZuq1nt0O_SiNQjAK3AeoAZdo7UKXd2-Qw/edit?usp=sharing)
 #
 
 ### *Screenshot of Application:*
